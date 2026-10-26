@@ -4,8 +4,8 @@
 <head>
     <base href="/" />
     <!-- useful to handle the favicon when relative root is used-->
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <title>FUXA</title>
+    <link rel="icon" type="image/jpeg" href="assets/branding/tidalwave-logo.jpeg">
+    <title>TidalWave Control | SCADA &amp; HMI</title>
     <meta charset="UTF-8">
     <script>
         (function() {
@@ -73,21 +73,12 @@
     <script src="assets/lib/svg/svg.min.js"></script>
     <script src="assets/lib/svg/raphael.min.js"></script>
 
+<link rel="stylesheet" href="assets/branding/tidalwave.css">
 </head>
 <!-- 3. Display the application -->
 
 <body>
-    <app-root>
-        <div style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%);">
-            <div class="logo" style="display:block;width:60px;height:60px;background-size:60px 60px;margin-left: 45px;"></div>
-            <div style="display: block; padding-left:10px">
-                <div style="display:block;font-size: 18px; font-weight: 600; text-align: center;">FUXA Loading...</div>
-                <div style="display: block;font-size: 10px;padding-top: 3px; text-align: center;">
-                    powered by <span><b>frango</b>team</span>
-                </div>
-            </div>
-        </div>
-    </app-root>
+    <app-root><section class="tw-loader" role="status" aria-live="polite" aria-label="Loading TidalWave Control"><div class="tw-loader__content"><p class="tw-loader__eyebrow">Industrial visibility. Connected operations.</p><div class="tw-loader__orb"><img class="tw-loader__logo" src="assets/branding/tidalwave-logo.jpeg" alt="TidalWave Softweb Solutions" width="224" height="224"></div><h1>TidalWave <span>Control</span></h1><p class="tw-loader__company">TidalWave Softweb Solutions</p><div class="tw-loader__meter" aria-hidden="true"></div><p class="tw-loader__status">Loading your SCADA workspace…</p><p class="tw-loader__links"><a href="services.html">Installation &amp; monthly support</a> · Powered by FUXA</p><p class="tw-loader__help">Taking longer than expected? <a href="">Reload the workspace</a> or contact your system administrator.</p></div></section></app-root>
 </body>
 
 </html>
