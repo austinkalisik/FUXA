@@ -1,0 +1,6 @@
+# Inside the existing FUXA HTTPS server block; test with nginx -t before reload.
+gzip on;
+gzip_vary on;
+gzip_comp_level 5;
+gzip_min_length 1024;
+gzip_types application/javascript application/json text/css image/svg+xml;

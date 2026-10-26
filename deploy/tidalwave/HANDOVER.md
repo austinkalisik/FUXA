@@ -49,3 +49,5 @@ Retain the FUXA MIT licence and third-party notices in distributed software. Tid
 ## PNG payments
 
 Kina Bank offers an Internet Payment Gateway for approved SME, business and corporate customers. Application and branch verification are required before credentials are issued: https://www.kinabank.com.pg/digital-banking/kina-internet-payment-gateway/ . No gateway account or credentials were supplied, so online checkout and automated recurring debits remain inactive. Use agreed monthly invoices initially. Do not collect card details in FUXA.
+
+The existing local ATSCADA portal was verified at http://localhost:8080/Home/Login. It is already installed and running, but authenticated setup was not performed. The FUXA workspace now has real top navigation links and a persistent logo. The decorative navigation embedded in the screen artwork is not used as a control. Nginx compression was enabled and verified. See VALIDATION.md for test coverage and remaining commissioning work.
