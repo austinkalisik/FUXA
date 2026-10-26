@@ -11,4 +11,6 @@ podman cp "$root/services.html" "$container:$dist/services.html"
 podman cp "$root/brand-preview.html" "$container:$dist/brand-preview.html"
 podman cp "$root/dist-index.html" "$container:$dist/index.html.tidalwave-new"
 podman exec "$container" mv "$dist/index.html.tidalwave-new" "$dist/index.html"
+podman cp "$root/patch-startup.cjs" "$container:/tmp/tidalwave-patch-startup.cjs"
+podman exec "$container" node /tmp/tidalwave-patch-startup.cjs "$dist"
 echo 'TidalWave static branding applied.'
