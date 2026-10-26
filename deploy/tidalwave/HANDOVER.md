@@ -14,7 +14,7 @@ Prepared 27 October 2026. This package adds the supplied TidalWave logo, a CSS 3
 
 Sell discovery and installation as a scoped project, then monthly support. Before issuing a quote, set the installation fee, support currency and monthly fee, included support hours, response times, after-hours rate, travel/hardware exclusions and cancellation terms. Obtain customer acceptance; do not promise 24/7 service without staffing it.
 
-The enquiry page deliberately publishes no invented prices. Payments and recurring billing are not activated. Use your existing invoicing process once pricing and terms are agreed, or connect your chosen payment provider after merchant onboarding.
+The enquiry page publishes an initial Starter support offer from PGK 350/month, including up to one remote-support hour per month for one commissioned site, PNG weekday business hours. Custom installation, hosting and additional hours are quoted separately. This is an initial business offer selected for the launch, not a researched market rate. Payments and recurring billing are not activated. Use your existing invoicing process once pricing and terms are agreed, or connect your chosen payment provider after merchant onboarding.
 
 ## Customer commissioning record
 
@@ -45,3 +45,7 @@ To roll back, restore the saved source index and compiled index from the timesta
 ## Attribution
 
 Retain the FUXA MIT licence and third-party notices in distributed software. TidalWave branding does not replace the upstream copyright notices. The repository's LICENSE remains intact.
+
+## PNG payments
+
+Kina Bank offers an Internet Payment Gateway for approved SME, business and corporate customers. Application and branch verification are required before credentials are issued: https://www.kinabank.com.pg/digital-banking/kina-internet-payment-gateway/ . No gateway account or credentials were supplied, so online checkout and automated recurring debits remain inactive. Use agreed monthly invoices initially. Do not collect card details in FUXA.
